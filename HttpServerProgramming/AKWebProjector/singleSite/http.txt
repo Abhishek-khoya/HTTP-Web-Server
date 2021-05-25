@@ -1,0 +1,32 @@
+HTTP Request Method Types : 
+#imp
+GET
+The GET method requests a representation of the specified resource. Requests using GET should only retrieve data.
+#imp
+POST
+The POST method is used to submit an entity to the specified resource, often causing a change in state or side effects on the server.
+HEAD
+The HEAD method asks for a response identical to that of a GET request, but without the response body.
+PUT
+The PUT method replaces all current representations of the target resource with the request payload.
+DELETE
+The DELETE method deletes the specified resource.
+CONNECT
+The CONNECT method establishes a tunnel to the server identified by the target resource.
+OPTIONS
+The OPTIONS method is used to describe the communication options for the target resource.
+TRACE
+The TRACE method performs a message loop-back test along the path to the target resource.
+PATCH
+The PATCH method is used to apply partial modifications to a resource.
+
+
+The First word in the first line of request contains the method part 
+The second word in the first line of the request contains the resource name, 
+if the request is get / post (As of now we are concerned GET / POST only)
+
+MIME Types : 
+html htm HTML HTM
+htm or html in any case combination : text/html 10(memory)
+css in any case combination : text/css 9(memory)
+js in any case combination : text/javascript 16(javascript) 
